@@ -1,0 +1,99 @@
+.warning,
+.success,
+.error {
+  border: 1px solid #ccc;
+  padding: 16px;
+  margin: 16px;
+  color: #2748b3;
+  background-color: #000;
+}
+
+body {
+  font: 100% "Space Mono", monospace;
+  color: #2748b3;
+  margin: 0px;
+  padding: 0px;
+  background-color: white;
+  background-image: radial-gradient(#fff, rgba(255, 255, 255, 0.2) 2px, transparent 40px), radial-gradient(#fff, rgba(255, 255, 255, 0.15) 1px, transparent 30px), radial-gradient(#fff, rgba(255, 255, 255, 0.1) 2px, transparent 40px), radial-gradient(rgba(255, 255, 255, 0.4), rgba(255, 255, 255, 0.1) 2px, transparent 30px);
+  background-size: 550px 550px, 350px 350px, 250px 250px, 150px 150px;
+  background-position: 0 0, 40px 60px, 130px 270px, 70px 100px;
+  background-attachment: fixed;
+}
+body article {
+  display: flex;
+  flex-wrap: wrap;
+}
+body article section {
+  flex-grow: 1;
+  flex-basis: 45%;
+  border: 1px silver solid;
+  box-shadow: 10px 10px 19px -4px rgba(255, 255, 255, 0.75);
+  -webkit-box-shadow: 10px 10px 19px -4px rgba(255, 255, 255, 0.75);
+  -moz-box-shadow: 10px 10px 19px -4px rgba(255, 255, 255, 0.75);
+  padding: 16px;
+  margin: 16px;
+  clear: both;
+  overflow: auto;
+  box-sizing: border-box;
+}
+body article section #selling-points {
+  flex-grow: 2;
+  flex-basis: 100%;
+}
+body pre {
+  background: #000;
+  border: 1px solid #ddd;
+  color: #666;
+  font-family: monospace;
+  font-size: 15px;
+  line-height: 1.6;
+  margin-bottom: 1.6em;
+  max-width: 100%;
+  overflow: auto;
+  padding: 16px;
+  display: block;
+  white-space: pre-wrap;
+}
+body pre .before {
+  float: left;
+  width: 40%;
+}
+body pre .after {
+  float: right;
+  width: 40%;
+}
+
+h1,
+h2,
+h6 {
+  color: #6b8eff;
+}
+
+h1 {
+  text-align: center;
+}
+
+h6 {
+  text-align: center;
+  font-size: 2em;
+  padding: 32px;
+  margin-bottom: 0px;
+}
+
+.success {
+  background-color: green;
+}
+
+.error {
+  background-color: red;
+}
+
+.warning {
+  background-color: orange;
+}
+
+footer h6 {
+  padding: 32px;
+}
+
+/*# sourceMappingURL=style.css.map */
